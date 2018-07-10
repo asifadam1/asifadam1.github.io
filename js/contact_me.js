@@ -22,9 +22,9 @@ $(function() {
       $.ajax({
         url: "//formspree.io/asifadam2017@gmail.com",
         type: "POST",
+        dataType: "json",
         data: {
           name: name,
-         
           email: email,
           message: message
         },
