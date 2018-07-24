@@ -2,12 +2,25 @@ body {
   font-family: 'Lato';
 }
 
-header {
-text-align: center;
-color: #fff;
-background-size: cover;
-background-image: url('img/wallpaper.jpg');
+
+
+
+.bg-image{
+   background-image: url("../img/skyline.jpg");
+   background-repeat: no-repeat;
+   opacity: 0.8;
+   width:100%;
+ height:100%;
+
+ background-size:cover;
+
 }
+
+.bg-image2{
+   background-image: url("../img/skyline.jpg");
+   opacity: 0.8;
+ }
+
 
 h1,
 h2,
@@ -47,7 +60,9 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #18273f ;
+
+
 }
 
 hr.star-dark {
@@ -97,19 +112,21 @@ section h2 {
 .scroll-to-top a {
   width: 3.5rem;
   height: 3.5rem;
-  background-color: rgba(33, 37, 41, 0.5);
+  background-color: #e0760b;
   line-height: 3.1rem;
 }
 
 #mainNav {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+
   font-weight: 700;
   font-family: 'Montserrat';
+
+
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color:  #fff;
 }
 
 #mainNav .navbar-nav {
@@ -122,7 +139,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #ff9932;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -130,7 +147,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #e0760b;
 }
 
 #mainNav .navbar-toggler {
@@ -157,11 +174,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #e0760b;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #e0760b;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -173,6 +190,7 @@ section h2 {
 }
 
 //add here
+
 
 header.masthead h1 {
   font-size: 3rem;
@@ -196,6 +214,7 @@ header.masthead h2 {
   header.masthead h2 {
     font-size: 1.75em;
   }
+
 }
 
 .portfolio {
@@ -214,7 +233,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #e0760b;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -317,7 +336,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #e0760b;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -327,7 +346,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #e0760b;
   color: #fff;
 }
 
@@ -341,14 +360,16 @@ a {
 
 a:focus, a:hover, a:active {
   color: #128f76;
+
 }
 
 .btn {
   border-width: 2px;
 }
 
+/*this is changing the colours*/
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color:#18273f !important;
 }
 
 .bg-secondary {
@@ -356,7 +377,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color:  #ff9932 !important;
 }
 
 .text-secondary {
@@ -364,13 +385,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #e0760b;
+  border-color: #e0760b;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color:  #ff9932;
+  border-color:  #ff9932;
 }
 
 .btn-secondary {
