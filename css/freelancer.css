@@ -298,6 +298,14 @@ header.masthead h2 {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .png-img{
+        display: none;
+    }
 }
 
 .floating-label-form-group {
@@ -413,4 +421,14 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+ .btn-outline-dark:hover{
+  color: #fff;
+  background-color:  #e0760b;
+
+}
+
+.progress{
+  height: 40px;
 }
