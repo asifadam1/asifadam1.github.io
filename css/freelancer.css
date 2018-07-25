@@ -448,6 +448,5 @@ a:focus, a:hover, a:active {
   font-family: 'Montserrat';
   font-size: 18px;
   text-transform: uppercase;
-   position: relative;
-   left: 110px;
+  
 }
