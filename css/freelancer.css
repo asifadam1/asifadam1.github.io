@@ -302,9 +302,12 @@ header.masthead h2 {
 
 }
 
+/*viewport mobile screen width*/
 @media only screen and (max-width: 600px) {
-    .png-img{
-        display: none;
+    .skills-text{
+
+
+
     }
 }
 
@@ -430,5 +433,21 @@ a:focus, a:hover, a:active {
 }
 
 .progress{
+  width: 80%;
   height: 40px;
+
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+
+.skills-text{
+
+  font-weight: 700;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-transform: uppercase;
+   position: relative;
+   left: 110px;
 }
