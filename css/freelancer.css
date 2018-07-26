@@ -262,6 +262,7 @@ header.masthead h2 {
   .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
+
 }
 
 .portfolio-modal .portfolio-modal-dialog {
@@ -299,16 +300,36 @@ header.masthead h2 {
     font-size: 3rem;
   }
 
-
 }
 
 /*viewport mobile screen width*/
 @media only screen and (max-width: 600px) {
-    .skills-text{
+
+
+.masthead .img-fluid{
+
+  width: auto;
+  height: 140px;
+  position: relative;
+  top: 70px;
+
+
+}
+
+.masthead{
+
+  height: 400px;
+
+}
+
+h1{
+  position:relative;
+  top: 20px;
+}
 
 
 
-    }
+
 }
 
 .floating-label-form-group {
@@ -448,5 +469,5 @@ a:focus, a:hover, a:active {
   font-family: 'Montserrat';
   font-size: 18px;
   text-transform: uppercase;
-  
+
 }
