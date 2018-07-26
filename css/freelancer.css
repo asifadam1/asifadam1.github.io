@@ -40,7 +40,7 @@ body {
 
 
 h3{
-  color: #e0760e;
+
 }
 
 hr.star-light,
@@ -234,9 +234,6 @@ header.masthead h2 {
     font-family: 'Montserrat';
 
 
-    font-size: 8px;
-
-
 }
 
 .portfolio .portfolio-item {
@@ -251,11 +248,12 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  /* background-color: #e0760b; */
+  background-color: #e0760b;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.8;
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
