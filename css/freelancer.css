@@ -254,6 +254,11 @@ header.masthead h2 {
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 0.8;
 
+
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:link{
+  text-decoration: none;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -329,7 +334,12 @@ header.masthead h2 {
 
 h1{
   position:relative;
-  top: 80px;
+  top: 120px;
+}
+
+h2{
+  position:relative;
+  top: 40px;
 }
 
 
