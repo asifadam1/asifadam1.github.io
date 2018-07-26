@@ -230,7 +230,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
-  background-color:  #18273f;
+  background-color:  #fff ;
     font-family: 'Montserrat';
 
 
@@ -351,6 +351,12 @@ h2{
   position: relative;
   top:20px;
 }
+
+.cv-text p{
+  text-align: center;
+}
+
+
 
 
 
@@ -493,7 +499,7 @@ a:focus, a:hover, a:active {
   font-family: 'Montserrat';
   font-size: 20px;
   text-transform: uppercase;
-  /* text-decoration: underline; */
+
 
 
 }
@@ -519,5 +525,7 @@ a:focus, a:hover, a:active {
   font-family: 'Montserrat';
   font-size: 18px;
   text-transform: uppercase;
+
+
 
 }
