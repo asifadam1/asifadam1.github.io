@@ -230,6 +230,13 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  background-color:  #18273f;
+    font-family: 'Montserrat';
+
+
+    font-size: 8px;
+
+
 }
 
 .portfolio .portfolio-item {
@@ -244,7 +251,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #e0760b;
+  /* background-color: #e0760b; */
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
