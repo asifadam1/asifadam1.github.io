@@ -6,20 +6,74 @@ body {
 
 
 .bg-image{
-   background-image: url("../img/skyline.jpg");
+   /* background-image: url("../img/blur-architecture.jpg"); */
+
    background-repeat: no-repeat;
-   opacity: 0.8;
+   /* opacity: 0.8; */
    width:100%;
- height:100%;
+ height:660px;
+
 
  background-size:cover;
 
 }
 
-.bg-image2{
-   background-image: url("../img/skyline.jpg");
-   opacity: 0.8;
- }
+.bg-gradient{
+  width: 100%;
+  height: 660px;
+
+  position: absolute;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+51,0.76+51,0+88,0+88 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.76) 51%, rgba(0,0,0,0) 88%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.76) 0%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,0) 88%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.76) 0%,rgba(0,0,0,0.76) 51%,rgba(0,0,0,0) 88%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+
+
+
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 7rem;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2rem;
+}
+
+.header-p{
+  font-size: 22px;
+}
+.button-circle{
+  background:rgba(0,0,0,0.3);
+      border-color: white;
+
+
+      width: 50px;
+      font-size: 30px;
+
+
+      border-radius: 50%;
+      position: relative;
+      top: 80px;
+
+}
+
+
 
  .carousel-caption h2{
    font-style: italic;
@@ -157,9 +211,9 @@ section h2 {
   color: #fff;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
+/* #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #e0760b;
-}
+} */
 
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -203,7 +257,7 @@ section h2 {
 //add here
 
 
-header.masthead h1 {
+/* header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
 }
@@ -211,7 +265,7 @@ header.masthead h1 {
 header.masthead h2 {
   font-size: 1rem;
   font-family: 'Lato';
-}
+} */
 
 @media (min-width: 992px) {
   header.masthead {
@@ -248,7 +302,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #e0760b;
+  background-color: #040426;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -300,6 +354,8 @@ header.masthead h2 {
   font-size: 2rem;
 }
 
+
+
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
@@ -316,23 +372,32 @@ header.masthead h2 {
 @media only screen and (max-width: 600px) {
 
 
-.masthead .img-fluid{
+.bg-image{
+  height: 560px;
 
-  width: auto;
-  height: 140px;
-  position: relative;
-  top: 90px;
+  /* This will ensure everywhere is covered */
+ background-size: cover;
+}
 
+.title h1{
+    font-size: 3rem;
 
 }
 
-.masthead{
-
-  height: 450px;
-
+h2 {
+  font-size: 1rem;
 }
 
-h1{
+.header-p{
+  font-size: 15px;
+}
+
+.button-circle{
+display: none;
+}
+
+
+/* h1{
   position:relative;
   top: 120px;
 }
@@ -340,11 +405,11 @@ h1{
 h2{
   position:relative;
   top: 40px;
-}
+} */
 
 .star-light{
-  position: relative;
-  top:20px;
+  /* position: relative; */
+  /* top:20px; */
 }
 
 .star-dark{
@@ -442,11 +507,12 @@ a:focus, a:hover, a:active {
 
 /*this is changing the colours*/
 .bg-primary {
-  background-color:#18273f !important;
+  background-color:#040426 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #000000 !important;
+
 }
 
 .text-primary {
