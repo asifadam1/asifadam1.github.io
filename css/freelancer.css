@@ -356,7 +356,9 @@ header.masthead h2 {
 
 
 
-@media (min-width: 768px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
@@ -366,14 +368,57 @@ header.masthead h2 {
     font-size: 3rem;
   }
 
+  .tablet-container{
+    position: relative;
+    top: -400px;
+  }
+
+  .title h1{
+      font-size: 5rem;
+    }
+
 }
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+.title h1{
+    font-size: 3rem;
+    position: relative;
+    top: 60px;
+
+  }
+
+  h2 {
+    font-size: 1rem;
+    position: relative;
+    top: 20px;
+  }
+
+  .header-p{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+  }
+
+.star-light{
+  position: relative;
+  top: 40px;
+}
+
+}
+
+
+
 /*viewport mobile screen width*/
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 
 
 .bg-image{
-  height: 560px;
+  height: 600px;
 
   /* This will ensure everywhere is covered */
  background-size: cover;
@@ -392,9 +437,10 @@ h2 {
   font-size: 15px;
 }
 
-/* .button-circle{
-display: none;
-} */
+ .button-circle{
+position: relative;
+top: 20px;
+}
 
 
 /* h1{
