@@ -356,9 +356,7 @@ header.masthead h2 {
 
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) {
-/* Styles */
+@media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
@@ -368,60 +366,151 @@ header.masthead h2 {
     font-size: 3rem;
   }
 
-  .tablet-container{
-    position: relative;
-    top: -400px;
-  }
+}
 
-  .title h1{
-      font-size: 5rem;
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+
+    .bg-image{
+      height: 40px;
+
     }
+
+    .title h1{
+        font-size: 3rem;
+
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    .header-p{
+      font-size: 15px;
+    }
+
+    .button-circle{
+
+    }
+
+
+    .star-dark{
+      position: relative;
+      top:20px;
+    }
+
+    .cv-text p{
+      text-align: center;
+      }
+
+
 
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
+
+
+
+/* ----------- Samsung 5, 6, 7 ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+
+.bg-image{
+height: 640px;
+
+}
 
 .title h1{
+  font-size: 3rem;
+
+}
+
+h2 {
+font-size: 1rem;
+}
+
+.header-p{
+font-size: 15px;
+}
+
+.button-circle{
+
+}
+
+
+.cv-text p{
+text-align: center;
+}
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+  .bg-image{
+    height: 360px;
+
+  }
+
+  .bg-gradient{
+    height: 360px;
+  }
+
+  .title h1{
     font-size: 3rem;
     position: relative;
-    top: 60px;
-
+    top: 40px;
   }
 
   h2 {
     font-size: 1rem;
-    position: relative;
-    top: 20px;
   }
 
   .header-p{
     font-size: 15px;
-    position: relative;
-    top: 15px;
   }
 
-.star-light{
+  .star-light{
   position: relative;
-  top: 40px;
+  top: 20px;
+  }
+
+
+  .button-circle{
+    /* display: none; */
+  }
 }
 
-}
 
 
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
-/*viewport mobile screen width*/
-/* Extra small devices (phones, 600px and down) */
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+  /* Portrait */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
 
 
 .bg-image{
-  height: 600px;
+  height: 736px;
 
-  /* This will ensure everywhere is covered */
- background-size: cover;
 }
 
 .title h1{
@@ -437,26 +526,10 @@ h2 {
   font-size: 15px;
 }
 
- .button-circle{
-position: relative;
-top: 20px;
+.button-circle{
+
 }
 
-
-/* h1{
-  position:relative;
-  top: 120px;
-}
-
-h2{
-  position:relative;
-  top: 40px;
-} */
-
-.star-light{
-  /* position: relative; */
-  /* top:20px; */
-}
 
 .star-dark{
   position: relative;
@@ -465,11 +538,73 @@ h2{
 
 .cv-text p{
   text-align: center;
+  }
 }
 
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
 
+    .bg-image{
+      height: 414px;
 
+    }
 
+    .bg-gradient{
+      height: 414px;
+    }
+
+    .title h1{
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    .header-p{
+      font-size: 15px;
+    }
+
+    .button-circle{
+      display: none;
+    }
+}
+
+/*tablet landscape*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+  .title{
+    position: relative;
+    top: -300px;
+  }
+
+  .bg-image{
+    height: 768px;
+  }
+}
+
+/*tablet portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait){
+
+  .title{
+    position: relative;
+    top: -500px;
+  }
+
+  .bg-image{
+    height: 1024px;
+  }
 
 }
 
@@ -553,7 +688,7 @@ a:focus, a:hover, a:active {
 
 /*this is changing the colours*/
 .bg-primary {
-  background-color:#040426 !important;
+  background-color:#18273f !important;
 }
 
 .bg-secondary {
