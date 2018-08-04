@@ -785,23 +785,36 @@ a:focus, a:hover, a:active {
   margin-right: auto;
 }
 
+.about-text{
+  font-weight: 700;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
 .cv-text{
   font-weight: 700;
   font-family: 'Montserrat';
   font-size: 20px;
   text-transform: uppercase;
+  
+
+
 }
 
 .cv-text2{
   font-family: 'Montserrat';
   font-size: 20px;
   font-style: italic;
+
 }
 
 .text-underline {
       border-bottom: solid 3px #e0760b;
       display: inline;
       padding-bottom: 3px;
+
 }
 
 .skills-text{
