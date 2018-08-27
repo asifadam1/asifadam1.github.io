@@ -382,10 +382,34 @@ ul#nav li.current a { color: #44c920; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.html5 {
+  	width: 80%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+
+.css {
+  	width: 90%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+
+.php {
+  	width: 50%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
+}
+
+.bootstrap {
+  	width: 70%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+
+.javascript {
+  	width: 30%;
+  	-moz-animation: photoshop 6s ease;
+  	-webkit-animation: photoshop 6s ease;
 }
 .illustrator {
   	width: 55%;
@@ -402,11 +426,7 @@ ul#nav li.current a { color: #44c920; }
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
+
 .jquery {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
@@ -469,6 +489,7 @@ ul#nav li.current a { color: #44c920; }
 
 #portfolio {
    background: #ebeeee;
+     background: url(../images/2.png)no-repeat;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -478,7 +499,7 @@ ul#nav li.current a { color: #44c920; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #fff;
 }
 
 /* Portfolio Content */
